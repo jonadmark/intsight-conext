@@ -1,0 +1,6 @@
+[submodule "intsight-funceval/intsight-bmv2"]
+	path = intsight-funceval/intsight-bmv2
+	url = https://github.com/jonadmark/intsight-bmv2.git
+[submodule "intsight-perfeval"]
+	path = intsight-perfeval
+	url = https://github.com/jonadmark/intsight-perfeval.git
