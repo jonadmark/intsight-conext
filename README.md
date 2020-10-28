@@ -2,7 +2,7 @@
 
 This repository is the central hub for all code and artifacts of the CoNEXT 2020 paper entitled "IntSight: Diagnosing SLO Violations with In-Band Network Telemetry"
 
-Clone the repository with the following command to ensure all submodules cloned along with it:
+Clone the repository with the following command to ensure all submodules are cloned along with it:
 
 ```
 git clone --recurse-submodules https://github.com/jonadmark/intsight-conext2020.git
