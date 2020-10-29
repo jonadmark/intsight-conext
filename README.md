@@ -65,7 +65,7 @@ bash experiment.sh experiments/e2edelay/network.json
 Wait until the experiment ends, it should take no more than two minutes. Next, create a directory to store the obtained results and copy the files and directories necessary for running the analysis and generating the paper figures.
 
 ```
-mkdir /experiments/e2edelay/my_results
+mkdir experiments/e2edelay/my_results
 cp configure.py /experiments/e2edelay/my_results/
 cp -r logs /experiments/e2edelay/my_results/
 ```
@@ -73,7 +73,7 @@ cp -r logs /experiments/e2edelay/my_results/
 Generate the paper figures using the provided Jupyter Notebook. Open the notebook with the following command.
 
 ```
-cd /experiments/e2edelay/
+cd experiments/e2edelay/
 jupyter notebook genfigures.ipynb
 ```
 
@@ -86,10 +86,10 @@ Next, we list the necessary steps to reproduce the bandwidth use case, which are
 ```
 cd ../..
 bash experiment.sh experiments/bandwidth/network.json
-mkdir /experiments/bandwidth/my_results
+mkdir experiments/bandwidth/my_results
 cp configure.py /experiments/bandwidth/my_results/
 cp -r logs /experiments/bandwidth/my_results/
-cd /experiments/bandwidth/
+cd experiments/bandwidth/
 jupyter notebook genfigures.ipynb
 ```
 
