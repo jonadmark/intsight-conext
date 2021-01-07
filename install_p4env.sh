@@ -80,7 +80,7 @@ cd ..
 # Bmv2
 cd behavioral-model
 ./autogen.sh
-./configure --enable-debugger --with-pi
+./configure --disable-logging-macros --with-pi
 make -j${NUM_CORES}
 sudo make install
 sudo ldconfig
